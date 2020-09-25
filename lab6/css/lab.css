@@ -1,4 +1,7 @@
 /* Style inputs with type="text", select elements and textareas */
+#content{
+  background-color: #b19cd9;
+}
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
