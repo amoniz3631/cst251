@@ -3,12 +3,14 @@ body {
     background-color: darkgray;
     padding: 25px;
     font-size: 120%;
+    background-color: #b19cd9;
 }
 div#content {
     padding: 50px;
     background-color: lightgray;
     border: solid 1px #333333;
     height: 80vh;
+    background-color: #b19cd9;
 }
 h1, h2, h3 {
     font-family: "Courier New", monospace;
@@ -17,12 +19,15 @@ img {
     float: right;
     width: 400px;
     height: auto;
+    background-color: #b19cd9;
 }
 a {
     text-decoration: none;
     color: maroon;
+    background-color: #b19cd9;
 }
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+    background-color: #b19cd9;
 }
