@@ -1,6 +1,39 @@
+head
 style
-{HOVER OVER IMAGE}
-.content:hover {
+#content {
+  margin: 400px
+  border: dashed 50px blue
+}
+p.dotted {border-style: dotted;}
+  .tree  {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+.tree {border: dashed 20px pink}
+  img {
+    border-radius: 20%;
+  }
+  w3-round-xxlarge w3-black.w3-panel {
+  }
+  .tree img {
+    width: 100%;
+    transition: 0.9s all ease-in-out;
+  }
+  .tree :hover img {
+    transform: scale(1.5);
+  }
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #B19CD9;
+    padding: 25px;
+    font-size: 120%;
+}
+h1, h2, h3 {
+    font-family: "Arial", monospace;
+}
+.tree:hover {
     position:left;
     top:-25px;
     left:-35px;
@@ -9,12 +42,11 @@ style
     display:block;
     z-index:999;
 }
-.content:hover {
-    position:right;
-    top:-25px;
-    left:-35px;
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
