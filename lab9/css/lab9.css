@@ -1,6 +1,6 @@
 style
 {HOVER OVER IMAGE}
-.ab:hover {
+.content:hover {
     position:left;
     top:-25px;
     left:-35px;
@@ -9,7 +9,7 @@ style
     display:block;
     z-index:999;
 }
-.ab:hover {
+.content:hover {
     position:right;
     top:-25px;
     left:-35px;
