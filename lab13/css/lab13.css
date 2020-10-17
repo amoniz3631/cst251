@@ -1,20 +1,15 @@
-style
-{HOVER OVER IMAGE}
-.ab:hover {
-    position:left;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
 }
-.ab:hover {
-    position:right;
-    top:-25px;
-    left:-35px;
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
 }
