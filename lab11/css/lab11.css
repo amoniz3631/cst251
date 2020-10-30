@@ -1,20 +1,16 @@
-style
-{HOVER OVER IMAGE}
-.ab:hover {
-    position:left;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+aside#sidebar {
+  display: incline-block;
+  position: sticky;
+  line-height: 230%;
+  bottom: 200px;
+  right: -25px;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border: 3px solid purple;
+  background-color: #99ccff;
+  border-radius: 20px;
 }
-.ab:hover {
-    position:right;
-    top:-25px;
-    left:-35px;
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
+#content{
+  background-color: #b19cd9;
 }
