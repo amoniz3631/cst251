@@ -1,0 +1,17 @@
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: blue;
+  border: 2px solid powderblue;
+  padding: 30px;
+}
